@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.header{
+    background-image: url(images/minimilistic.jpeg);
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navigation {
+    padding-top: .50%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Acme', sans-serif;
+    padding-bottom: 15%;
+    font-family: 'Exo 2', sans-serif; 
+}
+
+h1 {
+    font-size: 500%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Exo 2', sans-serif; 
+}
+
+.slogan {
+    font-size: 150%;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Exo 2', sans-serif; 
+}
+
+.learn {
+    font-size: 100%;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    padding: 1% 2% 1%;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-family: 'Exo 2', sans-serif; 
+}
+
+.shop_products {
+    font-size: 300%;
+    text-align: center;
+    padding: 3%;
+    font-family: 'Exo 2', sans-serif; 
+    background-color: white;
+}
+
+.products {
+    background-color: white;
+    height: 20%;
+    width: 20%;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+.products_name {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Exo 2', sans-serif; 
+    text-decoration: underline;
+
+}
+
+.Glycolic {
+    margin-right: 2%;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Exo 2', sans-serif; 
+    text-decoration: underline;
+    margin: 1%;
+}
+
+.price {
+    margin-right: 1%;
+}
+
+.Display {
+    display: flex;
+    background-color:#FFF6EC;
+}
+
+.Aside_Pic {
+    height: 10%;
+    width: 20%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+ .about {
+    margin-top: 20%;
+    font-size: 400%;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif; 
+} 
+
+.text_aside {
+    margin: 10% 15% 0;
+    font-size: 200%;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.spa {
+    display: flex;
+    font-size: 150%;
+    justify-content: space-around;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.spaName {
+    display: flex;
+    font-size: 150%;
+    justify-content: space-around;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 4%;
+    
+}
+
+.service {
+    padding-left: .50%;
+}
+
+.price1 {
+    padding-left: 2%;
+}
+
+.price2 {
+    padding-left: 3%;
+}
+
+.spaPics {
+    display: flex;
+    justify-content: space-around;
+}
+
+.basicSpa, .advancedSpa {
+    padding-top: 2%;
+    height: 10%;
+    width: 49%;
+}
+
+.purple {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff6ec;
+    margin-top: 1%;
+}
+
+.purpleBottle {
+    margin-top: 3%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+    width: 20%;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+}
+
+.product {
+    margin: 10% 15% 0;
+    font-size: 200%;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #fff6ec;
+}
+
