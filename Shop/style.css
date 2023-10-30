@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.header{
+    background-image: url(/images/minimilistic.jpeg);
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navigation {
+    padding-top: .50%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Acme', sans-serif;
+    padding-bottom: 15%;
+    font-family: 'Exo 2', sans-serif; 
+}
+
+h1 {
+    font-size: 500%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Exo 2', sans-serif; 
+}
+
+.slogan {
+    font-size: 150%;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Exo 2', sans-serif; 
+}
+
+.learn {
+    font-size: 100%;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    padding: 1% 2% 1%;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-family: 'Exo 2', sans-serif; 
+}
+/* The header/Navigation stops from here */
+
+
+/* The footer's CSS starts from here */
+.subscribe {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+}
+
+.sub_head {
+    font-size: 300%;
+    margin: 10% 0 3%;
+}
+
+.update {
+    font-size: 250%;
+    margin-bottom: 3%;
+}
+
+.email {
+    padding: 1% 5% 1%;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.signUp {
+   padding: 1%;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 7%;
+    font-size: 125%;
+    text-align: center;
+    padding-bottom: 10%;
+}
