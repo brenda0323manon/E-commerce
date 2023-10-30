@@ -191,3 +191,46 @@ h1 {
     background-color: #fff6ec;
 }
 
+.subscribe {
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.sub_head {
+    font-size: 300%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+.update {
+    margin-left: -19%;
+    font-size: 250%;
+    margin-bottom: 3%;
+}
+
+.email {
+    padding: 1% 5% 1%;
+    font-family: 'Exo 2', sans-serif;
+    margin-left: -2%;
+}
+
+.signUp {
+   padding: 1%;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 7%;
+    font-size: 125%;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.location {
+   padding: 10%;
+   
+}
