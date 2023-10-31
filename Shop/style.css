@@ -102,14 +102,69 @@ a {
     flex-direction: column;
     margin-top: 1rem;
     margin-left: 15%;
-    margin-right: 40%;
 }
 
+.glycolic {
+    width: 50%;
+}
+
+.nia {
+    width: 50%;
+}
+
+.hyaluronic {
+    width: 50%;
+    margin-top: 10%;
+}
+
+.HA {
+    margin-top: 10%;
+    width: 50%;
+}
+
+.eye1{
+    margin-top: 15%;
+    width: 47%;
+}
+
+.copper {
+    margin-top: 15%;
+    width: 50%;
+}
+
+.pink {
+   width: 13%;
+   margin-left: 19%;
+   margin-top: 22%;
+}
+
+.eye {
+    width: 65%;
+}
+
+.hydrate {
+    width: 55%;
+}
+
+.factors {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.lash {
+    width: 50%;
+    margin-top: 5%;
+}
+.acid {
+    width: 55%;
+}
 
 /* The footer's CSS starts from here */
 .subscribe {
     font-family: 'Exo 2', sans-serif;
     text-align: center;
+    background-color:#F1F1F1;
+    padding-top: 5%;
 }
 
 .sub_head {
@@ -136,9 +191,10 @@ a {
     display: flex;
     justify-content: space-evenly;
     font-family: 'Exo 2', sans-serif;
-    margin-top: 7%;
+    padding-top: 1%;
     font-size: 125%;
     text-align: center;
     padding-bottom: 10%;
+    background-color: #F1F1F1;
 }
 
