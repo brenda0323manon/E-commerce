@@ -58,6 +58,11 @@ h1 {
     transform: translate(-50%, -50%);
     font-family: 'Exo 2', sans-serif; 
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
 /* The header/Navigation stops from here */
 
 /* The product list */
@@ -202,7 +207,7 @@ h1 {
 .subscribe {
     font-family: 'Exo 2', sans-serif;
     text-align: center;
-    background-color:#F1F1F1;
+    background-color:#F2EBE1;
     padding-top: 5%;
 }
 
@@ -233,6 +238,6 @@ h1 {
     font-size: 125%;
     text-align: center;
     padding-bottom: 10%;
-    background-color: #F1F1F1;
+    background-color: #F2EBE1;
 }
 
