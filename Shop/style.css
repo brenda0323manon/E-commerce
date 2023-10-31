@@ -88,9 +88,14 @@ h1 {
 }
 
 .product-img-wrap {
-    height:20%;
+    height:10%;
     width: 100%;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+} 
 
 .product-info {
     display: flex;
@@ -137,6 +142,3 @@ h1 {
     padding-bottom: 10%;
 }
 
-/* .product-sell {
-    text-decoration-color: ;
-} */

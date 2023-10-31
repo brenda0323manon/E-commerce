@@ -201,6 +201,8 @@ h1 {
 .subscribe {
     font-family: 'Exo 2', sans-serif;
     text-align: center;
+    background-color:#fffbf7;
+    padding-top: 5%;
 }
 
 .sub_head {
@@ -220,16 +222,16 @@ h1 {
 
 .signUp {
    padding: 1%;
-
 }
 
 .footer {
     display: flex;
     justify-content: space-evenly;
     font-family: 'Exo 2', sans-serif;
-    margin-top: 7%;
+    padding-top: 7%;
     font-size: 125%;
     text-align: center;
     padding-bottom: 10%;
+    background-color: #fffbf7;
 }
 
