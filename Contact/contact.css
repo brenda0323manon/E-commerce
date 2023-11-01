@@ -158,3 +158,60 @@ textarea {
     padding-bottom: 10%;
     background-color: #F2EBE1;
 }
+
+@media only screen and (max-width: 900px) {
+    .slogan{
+        padding-top: 7%; 
+    }
+}
+
+@media only screen and (max-width: 705px) {
+    h1{
+        font-size: 350%;
+    }
+    .slogan{
+        font-size: 125%;
+    }
+    main {
+        display: inherit;     
+    } 
+    .contact-us{
+        width: 80%;
+        margin: 5% 10% 5%;
+    }
+    .oil {
+        width: 82%;
+        margin-top: 0;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .sub_head{
+        font-size: 250%;
+    }
+    .update{
+        font-size: 175%;
+    }
+    .footer{
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 553px) {
+    .footer{
+        display: inherit;
+        background-color:#F2EBE1;
+    }
+    .Location, .hours, .info {
+        padding: 3%;
+        background-color:#F2EBE1;
+    }
+    .update{
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 406px)  {
+    .update{
+        font-size: 125%;
+    }
+}
