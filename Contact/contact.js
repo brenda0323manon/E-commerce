@@ -1,18 +1,19 @@
 const contact = document.getElementsByClassName('contact-us');
 const email = document.getElementsByClassName('Email');
-const emailFooter =document.getElementsByClassName('email');
-const name = document.getElementsByClassName('name');
+const email2 =document.getElementsByID('email2');
+const name = document.getElementsById('name');
+// const send = document.addEventListener('send');
+// const submit = document.addEventListener('submit')
 
-FormData.addEventListener('signUp', (e) => {
+
+send.addEventListener('click', handleSubmit);
+function handleSubmit(e) {
     e.preventDefault();
+    validateEmail(email);
+    validateName(name);
+}
 
-    checkInputs();
 
-});
-
-function checkInputs() {
-    contact.value
-    email.value
-    email.value
-    name.value
+function validateEmail(email) {
+    const nameValue = email.value.trim
 }
