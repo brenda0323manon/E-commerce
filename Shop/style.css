@@ -67,7 +67,7 @@ h1 {
     padding: 3% 0 3%;
     font-size: 375%;
     background-color: white;
-    margin:2%;
+    margin:2%; 
 }
 
 .main {
@@ -130,7 +130,6 @@ a {
 
 .hyaluronic {
     width: 50%;
-    margin-top: 10%;
 }
 
 .HA {
@@ -151,7 +150,7 @@ a {
 .pink {
    width: 13%;
    margin-left: 19%;
-   margin-top: 22%;
+   margin-top: 12%; 
 }
 
 .eye {
@@ -185,7 +184,7 @@ a {
 
 .sub_head {
     font-size: 300%;
-    margin: 10% 0 3%;
+    margin: 5% 0 3%;
 }
 
 .update {
@@ -199,9 +198,9 @@ a {
 }
 
 .signUp {
-   padding: 1%;
-
-}
+    padding: 1%;
+    margin-bottom: 5%;
+ }
 
 .footer {
     display: flex;
