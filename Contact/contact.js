@@ -15,21 +15,26 @@
 
   };
 
-  // Function to validate an email address
+  // Function to validate address
   function validateEmail(email) {
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
     return emailRegex.test(email)
   }
 
-  function validateName(name) {
-    const nameRegex = /^[A-Za-z\s]+$/;
-    return nameRegex.test(name);
-   
-  }
+  ///Function to validate name
+  function validateName(){
+    var regName = /^[a-zA-Z]+ [a-zA-Z]+$/;
+    var name = document.getElementById('name').value;
+    if(!regName.test(name)){
+        alert('Please enter your full name (first & last name).');
+        document.getElementById('name').focus();
+     } 
+}
 
-  function validateMessage(message) {
-    const messageRegex = /^[A-Za-z]+(?:\s[A-Za-z]+)*$/
-    return messageRegex.test(message)
-  }
+  // function validateMessage(message) {
+  //   const messageRegex = /^[A-Za-z]+(?:\s[A-Za-z]+)*$/
+  //   return messageRegex.test(message)
+  // }
+
 
   
