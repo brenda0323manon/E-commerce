@@ -12,17 +12,24 @@
      validateEmail(email);
      validateName(name);
      validateMessage(message);
+
   };
 
   // Function to validate an email address
   function validateEmail(email) {
-    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-    return emailRegex.test(email);
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
+    return emailRegex.test(email)
   }
 
   function validateName(name) {
-    const nameRegex = /^[A-Za-z]+(?:\s[A-Za-z]+)*$/;
+    const nameRegex = /^[A-Za-z\s]+$/;
     return nameRegex.test(name);
+   
+  }
+
+  function validateMessage(message) {
+    const messageRegex = /^[A-Za-z]+(?:\s[A-Za-z]+)*$/
+    return messageRegex.test(message)
   }
 
   
