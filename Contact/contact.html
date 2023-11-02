@@ -23,29 +23,32 @@
             <button class="learn">Lean More</button>
         </nav>
     </header>
-    
+
     <main>
-      <aside class="contact-us">
-       <div class="contact">
-          <h2 class="contact-heading">Contact Us</h2>
-          <p>Got a question? We'd love to hear from you. Send us a message and we'll respong as soon as possible.</p>
-       </div>
-       <div class="form">
-          <p>Name</p>
-          <input class="name input" id="name" type="text" placeholder="Enter Name">
-          <p>Email Address</p>
-          <input class="Email input" id="email" type="text" placeholder="example@gmail.com">
-          <p>Message</p>
-          <textarea placeholder="Write Message"></textarea>
-          <button class="send" id="send">Send Message</button>
-       </div>
-      </aside>
-      <div>
-        <img class="oil" src="/images/oil.jpeg" alt="oil bottles">
-      </div>
-    </main>
-
-
+        <aside class="contact-us error" id="form">
+          <div class="contact">
+            <h2 class="contact-heading">Contact Us</h2>
+            <p>Got a question? We'd love to hear from you. Send us a message, and we'll respond as soon as possible.</p>
+          </div>
+          <div class="form">
+            <form action="submit.php" method="post" id="contact-form">
+              <label for="name">Name:</label>
+              <input class="name input" id="name" type="text" placeholder="Enter Name">
+              
+              <label for="email">Email Address:</label>
+              <input class="email input" id="email" type="email" placeholder="example@gmail.com">
+              
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" placeholder="Write Message"></textarea>
+              
+              <button class="send" type="submit" id="send">Send Message</button>
+            </form>
+          </div>
+        </aside>
+        <div>
+          <img class="oil" src="/images/oil.jpeg" alt="Oil bottles">
+        </div>
+      </main>
 
     <fototer>
         <div class="subscribe">

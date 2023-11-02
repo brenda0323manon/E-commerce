@@ -1,19 +1,19 @@
-const contact = document.getElementsByClassName('contact-us');
-const email = document.getElementsByClassName('Email');
-const email2 =document.getElementsByID('email2');
-const name = document.getElementsById('name');
-// const send = document.addEventListener('send');
-// const submit = document.addEventListener('submit')
 
+form.getElementById("contact-us").addEventListener("submit", function(event) {
+    const name = document.getElementById("name");
+    const email = document.getElementById("email");
+    const message = document.getElementById("message");
 
-send.addEventListener('click', handleSubmit);
-function handleSubmit(e) {
-    e.preventDefault();
-    validateEmail(email);
-    validateName(name);
-}
+    // Simple validation checks
+    if (name.trim() === "" || email.trim() === "" || message.trim() === "") {
+      return("All fields are required.");
+      event.preventDefault(); // Prevent form submission
+      
+    }
+  });
 
-
-function validateEmail(email) {
-    const nameValue = email.value.trim
-}
+  // Function to validate an email address
+  function validateEmail(email) {
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    return emailRegex.test(email);
+  }

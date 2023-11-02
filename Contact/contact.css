@@ -100,6 +100,12 @@ justify-content: space-evenly;
     margin-bottom: 1%;
 }
 
+#email{
+    width: 97%;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
 .send {
     font-family: 'Exo 2', sans-serif; 
     padding: 1% 2% 1%;
@@ -213,5 +219,10 @@ textarea {
 @media only screen and (max-width: 406px)  {
     .update{
         font-size: 125%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    h1{
+        font-size: 300%;
     }
 }
