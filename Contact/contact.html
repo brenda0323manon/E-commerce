@@ -31,7 +31,7 @@
             <p>Got a question? We'd love to hear from you. Send us a message, and we'll respond as soon as possible.</p>
           </div>
           <div class="form">
-            <form action="submit.php" method="post" id="contact-form">
+            <form id="contact-form" onsubmit="handleSubmit(event)">
               <label for="name">Name:</label>
               <input class="name input" id="name" type="text" placeholder="Enter Name">
               
@@ -55,7 +55,7 @@
             <h3 class="sub_head">Subscribe</h3>
             <p class="update">Join our mailing list for more updates</p>
             <input class="email" id="email2" placeholder="Email Address" type="text">
-            <button class="signUp" id="submit">Sign up</button>
+            <button class="signUp" type="submit" id="submit">Sign up</button>
         </div>
         <div class="footer">
             <div class="Location">

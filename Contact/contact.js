@@ -1,16 +1,16 @@
 
-form.getElementById("contact-us").addEventListener("submit", function(event) {
+handleSubmit.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form submission 
     const name = document.getElementById("name");
     const email = document.getElementById("email");
     const message = document.getElementById("message");
 
     // Simple validation checks
     if (name.trim() === "" || email.trim() === "" || message.trim() === "") {
-      return("All fields are required.");
-      event.preventDefault(); // Prevent form submission
-      
+     return("All fields are required.");
     }
   });
+
 
   // Function to validate an email address
   function validateEmail(email) {
