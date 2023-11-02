@@ -1,5 +1,5 @@
 
-handleSubmit.getElementById("contact-form").addEventListener("submit", function(event) {
+form.getElementById("contact-us").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent form submission 
     const name = document.getElementById("name");
     const email = document.getElementById("email");
@@ -10,7 +10,6 @@ handleSubmit.getElementById("contact-form").addEventListener("submit", function(
      return("All fields are required.");
     }
   });
-
 
   // Function to validate an email address
   function validateEmail(email) {
