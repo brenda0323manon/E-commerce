@@ -1,5 +1,5 @@
 
-form.getElementById("contact-us").addEventListener("submit", function(event) {
+handleSubmit.getElementByClass("contact-form").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent form submission 
     const name = document.getElementById("name");
     const email = document.getElementById("email");
@@ -16,3 +16,5 @@ form.getElementById("contact-us").addEventListener("submit", function(event) {
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     return emailRegex.test(email);
   }
+
+  const name = document.getElementById('name');
