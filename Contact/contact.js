@@ -1,15 +1,18 @@
 
-handleSubmit.getElementByClass("contact-form").addEventListener("submit", function(event) {
+ function handleSubmit (event) {
     event.preventDefault(); // Prevent form submission 
-    const name = document.getElementById("name");
-    const email = document.getElementById("email");
-    const message = document.getElementById("message");
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
 
     // Simple validation checks
     if (name.trim() === "" || email.trim() === "" || message.trim() === "") {
-     return("All fields are required.");
+     alert("All fields are required.");
     }
-  });
+     validateEmail(email);
+     validateName(name);
+     validateMessage(message);
+  };
 
   // Function to validate an email address
   function validateEmail(email) {
@@ -17,4 +20,9 @@ handleSubmit.getElementByClass("contact-form").addEventListener("submit", functi
     return emailRegex.test(email);
   }
 
-  const name = document.getElementById('name');
+  function validateName(name) {
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    return emailRegex.test(email);
+  }
+
+  
